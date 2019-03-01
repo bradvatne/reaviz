@@ -79,3 +79,12 @@ const App = () => (
 
 Checkout this [demo live](https://codesandbox.io/embed/m7rl2z1989) or
 visit the [demos page](https://jask-oss.github.io/r2d3/) to learn more!
+
+## 🔭 Development
+
+If you want to run R2D3 locally, its super easy!
+
+- Clone the repo
+- `npm i`
+- `npm start`
+- Browser opens to Storybook page
