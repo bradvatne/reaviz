@@ -3,21 +3,29 @@ import * as bind from 'memoize-bind';
 import { ZoomPan, ZoomPanEvent, ZoomPanProps } from './ZoomPan';
 import { ChartInternalDataShape, ChartDataTypes } from '../data';
 import { getXScale } from '../scales';
-import { Omit } from 'shared/utils';
 
 export interface ZoomPanChangeEvent {
   domain: [ChartDataTypes, ChartDataTypes];
   isZoomed: boolean;
 }
 
-export interface ChartZoomPanProps extends Omit<'onZoomPan', ZoomPanProps> {
+export interface ChartZoomPanProps {
   data: ChartInternalDataShape[];
-  width: number;
-  height: number;
   domain?: [ChartDataTypes, ChartDataTypes];
   axisType: 'value' | 'time' | 'category';
   roundDomains: boolean;
   onZoomPan?: (event: ZoomPanChangeEvent) => void;
+  height: number;
+  width: number;
+  scale: number;
+  offset: number;
+  pannable: boolean;
+  zoomable: boolean;
+  disabled?: boolean;
+  maxZoom: number;
+  zoomStep: number;
+  decay: boolean;
+  disableMouseWheel?: boolean;
 }
 
 export class ChartZoomPan extends Component<ChartZoomPanProps, {}> {
