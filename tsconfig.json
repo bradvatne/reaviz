@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "target": "ES2015",
+    "module": "esnext",
+    "moduleResolution": "node",
+    "lib": ["es2017", "dom"],
+    "jsx": "react",
+    "baseUrl": "./src",
+    "allowSyntheticDefaultImports": true,
+    "declarationDir": "./dist",
+    "outDir": "./dist",
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "sourceMap": true,
+    "typeRoots": ["./types", "./node_modules/@types"],
+    "declaration": true
+  },
+  "types": ["node"],
+  "exclude": ["node_modules", "src/**/*.test.tsx"]
+}

@@ -4,6 +4,10 @@ logs
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+pkg/
+.rpt2_cache/
+dist/
+storybook-static/
 
 # Runtime data
 pids
@@ -59,3 +63,4 @@ typings/
 
 # next.js build output
 .next
+.DS_Store

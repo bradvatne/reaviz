@@ -1,0 +1,28 @@
+.entry {
+  display: flex;
+  color: var(--color-on-primary);
+  padding: 9px 10px;
+  flex-direction: row;
+  align-items: center;
+  will-change: transparency;
+  transition: opacity 150ms ease-in;
+
+  &.inactive {
+    opacity: 0.5;
+  }
+
+  .label {
+    font-weight: 300;
+    font-size: 14px;
+    margin-left: 8px;
+  }
+
+  svg {
+    width: 15px;
+    height: 15px;
+
+    g {
+      fill: inherit;
+    }
+  }
+}
