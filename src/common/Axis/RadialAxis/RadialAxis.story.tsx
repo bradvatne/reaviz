@@ -26,7 +26,7 @@ const getData = () => {
   return xScale;
 };
 
-storiesOf('Charts/Axis/Radial', module)
+storiesOf('Common/Axis/Radial', module)
   .add('Simple', () => {
     const xScale = getData();
 
