@@ -13,7 +13,7 @@ export function formatValue(value: ChartInternalDataTypes): string {
       return value.toLocaleString();
     }
 
-    return value;
+    return value as string;
   }
 
   return 'No value';

@@ -4,14 +4,14 @@ import { themes } from '@storybook/theming';
 
 addParameters({
   options: {
-     theme: {
-       ...themes.dark,
-       animation: false,
-       brand: 'r2d3',
-       title: 'r2d3',
-       image: '',
-       url: ''
-     }
+    theme: {
+      ...themes.dark,
+      animation: false,
+      brand: 'r2d3',
+      title: 'r2d3',
+      image: '',
+      url: ''
+    }
   },
 });
 
