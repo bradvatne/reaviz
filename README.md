@@ -1,5 +1,5 @@
 <p align="center">
-  <h1>📊 R2D3</h1>
+  📊 R2D3
   <br />
   R2D3 is a data visualization library for React based on D3js.
   <br /><br />
