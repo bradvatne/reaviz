@@ -6,4 +6,3 @@ export * from './areaStack';
 export * from './types';
 export * from './bigInteger';
 export * from './multiSeries';
-export * from './timeSeries';

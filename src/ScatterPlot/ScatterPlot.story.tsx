@@ -8,7 +8,6 @@ import {
   signalStageData,
   signalStages
 } from '../common/demo/signals';
-import { scaleTimeSeries } from '../common/data';
 import { randomNumber } from '../common/demo';
 import { range } from 'd3-array';
 import { GridlineSeries, Gridline, GridStripe } from '../common/Gridline';
@@ -127,47 +126,7 @@ storiesOf('Charts/Scatter Plot', module)
       }
     />
   ))
-  .add('Live Update', () => <BubbleChartLiveUpdate />)
-  .add('Punchcard', () => {
-    const result = scaleTimeSeries(largeSignalChartData);
-    return (
-      <ScatterPlot
-        height={400}
-        width={750}
-        data={result.data}
-        margins={20}
-        series={
-          <ScatterSeries
-            point={
-              <ScatterPoint
-                fill="rgba(174, 52, 255, .5)"
-                size={v => {
-                  if (Array.isArray(v.meta)) {
-                    return v.meta.length + 3;
-                  }
-                  return 4;
-                }}
-              />
-            }
-          />
-        }
-        yAxis={
-          <LinearYAxis
-            type="value"
-            axisLine={null}
-            tickSeries={<LinearYAxisTickSeries line={null} label={null} />}
-          />
-        }
-        xAxis={
-          <LinearXAxis
-            type="time"
-            tickSeries={<LinearXAxisTickSeries interval={result.threshold} />}
-          />
-        }
-        gridlines={<GridlineSeries line={<Gridline direction="x" />} />}
-      />
-    );
-  });
+  .add('Live Update', () => <BubbleChartLiveUpdate />);
 
 class BubbleChartLiveUpdate extends React.Component<any, any> {
   constructor(props) {

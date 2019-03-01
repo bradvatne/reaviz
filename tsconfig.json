@@ -16,5 +16,5 @@
     "declaration": true
   },
   "types": ["node"],
-  "exclude": ["node_modules", "src/**/*.test.tsx"]
+  "exclude": ["node_modules", "src/**/*.test.tsx", "src/**/*.story.tsx"]
 }
