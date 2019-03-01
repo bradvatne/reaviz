@@ -47,7 +47,7 @@ import { BarChart } from 'r2d3';
 
 const data = [
   { key: 'IDS', data: 14 },
-  { key: 'Malware', data: 5 ,
+  { key: 'Malware', data: 5 },
   { key: 'DLP', data: 18 }
 ];
 
@@ -60,4 +60,5 @@ const App = () => (
 );
 ```
 
-to learn more visit the [demos page](https://jask-oss.github.io/r2d3/).
+Checkout this [demo live](https://codesandbox.io/embed/m7rl2z1989) or
+visit the [demos page](https://jask-oss.github.io/r2d3/) to learn more!
