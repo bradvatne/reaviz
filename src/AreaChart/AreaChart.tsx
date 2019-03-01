@@ -1,6 +1,6 @@
 import React, { Fragment } from 'react';
 import classNames from 'classnames';
-import * as bind from 'memoize-bind';
+import bind from 'memoize-bind';
 import { AreaSeries, AreaChartTypes, AreaSeriesProps } from './AreaSeries';
 import {
   isAxisVisible,

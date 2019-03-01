@@ -1,5 +1,5 @@
 import React from 'react';
-import * as bind from 'memoize-bind';
+import bind from 'memoize-bind';
 import { Dimensions, getDimension, Margins } from '../utils/dimensions';
 import { ResizeEvent, ResizeContainer } from './ResizeContainer';
 import { LinearAxisDimensionChanged } from '../Axis';

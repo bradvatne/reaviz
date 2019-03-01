@@ -19,7 +19,7 @@ import {
 import { Line, LineProps } from './Line';
 import { InterpolationTypes } from '../../common/utils/interpolation';
 import { getColor, sequentialScheme } from '../../common/utils/color';
-import * as bind from 'memoize-bind';
+import bind from 'memoize-bind';
 
 export type AreaChartTypes = 'standard' | 'stacked' | 'stackedNormalized';
 

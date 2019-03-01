@@ -1,7 +1,7 @@
 import React, { Component, createRef, Fragment } from 'react';
 import posed from 'react-pose';
 import { Tooltip } from '../common/TooltipArea';
-import * as bind from 'memoize-bind';
+import bind from 'memoize-bind';
 import * as css from './MapMarker.module.scss';
 
 export interface MapMarkerProps {

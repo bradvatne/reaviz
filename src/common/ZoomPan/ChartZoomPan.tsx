@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import * as bind from 'memoize-bind';
+import bind from 'memoize-bind';
 import { ZoomPan, ZoomPanEvent, ZoomPanProps } from './ZoomPan';
 import { ChartInternalDataShape, ChartDataTypes } from '../data';
 import { getXScale } from '../scales';

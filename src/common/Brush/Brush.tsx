@@ -1,5 +1,5 @@
 import React, { Component, Fragment } from 'react';
-import * as bind from 'memoize-bind';
+import bind from 'memoize-bind';
 import { getPositionForTarget } from '../utils/position';
 import { BrushSlice, BrushChangeEvent } from './BrushSlice';
 import { ChartDataTypes } from '../data';

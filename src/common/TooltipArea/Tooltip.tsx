@@ -1,6 +1,6 @@
 import React from 'react';
 import classNames from 'classnames';
-import * as bind from 'memoize-bind';
+import bind from 'memoize-bind';
 import {
   ConnectedOverlay,
   TriggerTypes

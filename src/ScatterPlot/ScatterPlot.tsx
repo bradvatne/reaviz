@@ -12,7 +12,7 @@ import {
   LinearXAxis,
   LinearYAxis
 } from '../common/Axis';
-import * as bind from 'memoize-bind';
+import bind from 'memoize-bind';
 import { getYScale, getXScale } from '../common/scales';
 import { ScatterSeries, ScatterSeriesProps } from './ScatterSeries';
 import { GridlineSeries, GridlineSeriesProps } from '../common/Gridline';

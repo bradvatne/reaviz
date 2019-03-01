@@ -19,7 +19,7 @@ import { SankeyNodeProps } from './SankeyNode';
 import { SankeyLinkProps } from './SankeyLink';
 import { Node, Link } from './utils';
 import { PoseSVGGElement } from '../common/utils/animations';
-import * as bind from 'memoize-bind';
+import bind from 'memoize-bind';
 
 const JUSTIFICATION = {
   justify: sankeyJustify,

@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import * as bind from 'memoize-bind';
+import bind from 'memoize-bind';
 import classNames from 'classnames';
 import { range } from 'd3-array';
 import { Pan, PanMoveEvent } from '../Gestures/Pan';

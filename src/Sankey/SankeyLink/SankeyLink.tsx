@@ -6,7 +6,7 @@ import { formatValue } from '../../common/utils/formatting';
 import { Tooltip, TooltipProps } from '../../common/TooltipArea';
 import { transition } from '../../common/utils/animations';
 import { NodeExtra, Node, Link, DEFAULT_COLOR } from '../utils';
-import * as bind from 'memoize-bind';
+import bind from 'memoize-bind';
 import { sankeyLinkHorizontal } from 'd3-sankey';
 import * as css from './SankeyLink.module.scss';
 

@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import * as bind from 'memoize-bind';
+import bind from 'memoize-bind';
 import { Pan, PanMoveEvent } from '../Gestures/Pan';
 import { Zoom, ZoomEvent } from '../Gestures/Zoom';
 import { value, decay, ValueReaction, ColdSubscription } from 'popmotion';

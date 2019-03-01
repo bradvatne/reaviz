@@ -55,7 +55,6 @@ export class DiscreteLegendEntry extends Component<
       >
         <CloneElement<DiscreteLegendSymbolProps>
           element={symbol}
-          className={css.symbol}
           color={color}
         />
         <span className={css.label}>{label}</span>

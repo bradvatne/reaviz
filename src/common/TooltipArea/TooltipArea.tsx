@@ -8,7 +8,7 @@ import {
   isNested
 } from '../data';
 import { getPositionForTarget, getClosestPoint } from '../utils/position';
-import * as bind from 'memoize-bind';
+import bind from 'memoize-bind';
 import { isEqual } from 'lodash-es';
 import { CloneElement } from '../utils/children';
 import { ChartTooltip, ChartTooltipProps } from './ChartTooltip';

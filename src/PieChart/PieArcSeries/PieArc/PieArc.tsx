@@ -1,6 +1,6 @@
 import React, { Component, Fragment, createRef } from 'react';
 import { PosedArc } from './PosedArc';
-import * as bind from 'memoize-bind';
+import bind from 'memoize-bind';
 import chroma from 'chroma-js';
 import { ChartTooltip, ChartTooltipProps } from '../../../common/TooltipArea';
 import { CloneElement } from '../../../common/utils/children';

@@ -33,7 +33,7 @@ import {
   ChartContainerChildProps,
   ChartProps
 } from '../common/containers/ChartContainer';
-import * as bind from 'memoize-bind';
+import bind from 'memoize-bind';
 import { CloneElement } from '../common/utils/children';
 
 export interface BarChartProps extends ChartProps {

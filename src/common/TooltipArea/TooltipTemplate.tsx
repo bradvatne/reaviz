@@ -32,7 +32,7 @@ export class TooltipTemplate extends Component<TooltipTemplateProps, {}> {
         <span className={css.subValueName}>
           {formatValue(data.key || data.x)}:
         </span>
-        <span className={css.subValueValue}>
+        <span>
           {formatValue(data.value || data.y)}
         </span>
       </span>

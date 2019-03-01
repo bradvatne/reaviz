@@ -1,5 +1,5 @@
 import React, { Fragment } from 'react';
-import * as bind from 'memoize-bind';
+import bind from 'memoize-bind';
 import { scaleOrdinal, scaleLinear, scalePoint } from 'd3-scale';
 import { range } from 'd3-array';
 import { Tooltip } from '../common/TooltipArea';

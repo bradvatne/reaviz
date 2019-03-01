@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import classNames from 'classnames';
-import * as bind from 'memoize-bind';
+import bind from 'memoize-bind';
 import { CloneElement } from '../../utils/children';
 import { DiscreteLegendEntryProps } from './DiscreteLegendEntry';
 import * as css from './DiscreteLegend.module.scss';

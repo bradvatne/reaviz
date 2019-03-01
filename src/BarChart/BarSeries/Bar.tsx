@@ -5,7 +5,7 @@ import { Gradient } from '../../common/Styles';
 import classNames from 'classnames';
 import { ChartInternalShallowDataShape } from '../../common/data';
 import { RangeLinesProps } from './RangeLines';
-import * as bind from 'memoize-bind';
+import bind from 'memoize-bind';
 import * as css from './Bar.module.scss';
 import { PosedBar } from './PosedBar';
 import { CloneElement } from '../../common/utils/children';

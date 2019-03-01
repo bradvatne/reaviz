@@ -1,5 +1,5 @@
 import React, { Component, Fragment } from 'react';
-import * as bind from 'memoize-bind';
+import bind from 'memoize-bind';
 import { BrushHandle } from './BrushHandle';
 import * as css from './BrushSlice.module.scss';
 import { Pan, PanMoveEvent } from '../Gestures/Pan';

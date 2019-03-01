@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import * as bind from 'memoize-bind';
+import bind from 'memoize-bind';
 import { BrushConfiguration, Brush } from './Brush';
 import { BrushChangeEvent } from './BrushSlice';
 

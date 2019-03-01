@@ -7,7 +7,7 @@ import { formatValue } from '../../common/utils/formatting';
 import { Tooltip, TooltipProps } from '../../common/TooltipArea';
 import { SankeyLabel, SankeyLabelProps } from '../SankeyLabel';
 import { Node, DEFAULT_COLOR } from '../utils';
-import * as bind from 'memoize-bind';
+import bind from 'memoize-bind';
 import * as css from './SankeyNode.module.scss';
 import { transition } from '../../common/utils/animations';
 
