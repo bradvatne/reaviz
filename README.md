@@ -60,4 +60,4 @@ const App = () => (
 );
 ```
 
-to learn more visit the [demos page](https://jask-oss.github.io/r2d3).
+to learn more visit the [demos page](https://jask-oss.github.io/r2d3/).
