@@ -1,5 +1,18 @@
-# 📊 R2D3
-R2D3 is a data visualization library for React based on D3js.
+<p align="center">
+  <h1>📊 R2D3</h1>
+  <br />
+  R2D3 is a data visualization library for React based on D3js.
+  <br /><br />
+  
+  <a href="https://npm.im/r2d3">
+    <img src="https://img.shields.io/npm/v/r2d3.svg" />
+  </a>
+  <a href="https://github.com/jask-oss/r2d3/blob/master/LICENSE">
+    <img src="https://badgen.now.sh/badge/license/apache2" />
+  </a>
+</p>
+
+---
 
 R2D3 provides features a module chart component library that leverages
 React natively for rendering the components while using D3js under the

@@ -14,7 +14,10 @@ module.exports = async ({ config }) => ({
       {
         test: /\.(ts|tsx)$/,
         include: resolve(__dirname, '../src'),
-        loader: require.resolve('babel-loader')
+        use: [
+          require.resolve('babel-loader'),
+          require.resolve("react-docgen-typescript-loader")
+        ]
       },
       {
         test: sassRegex,
