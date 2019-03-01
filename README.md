@@ -19,12 +19,12 @@ React natively for rendering the components while using D3js under the
 hood for calulcations. The library provides a easy way to get started
 creating charts without sacraficing customization ability! 
 
-## Quick Links
-- ✨ Checkout the [demo site](https://jask-oss.github.io/r2d3/)
-- 🚀 Try it yourself on [Codesandbox](https://codesandbox.io/embed/m7rl2z1989)
-- 📝 Learn about updates from the [changelog](CHANGELOG.md)
+## 🚀 Quick Links
+- Checkout the [demo site](https://jask-oss.github.io/r2d3/)
+- Try it yourself on [Codesandbox](https://codesandbox.io/embed/m7rl2z1989)
+- Learn about updates from the [changelog](CHANGELOG.md)
 
-## 🚀 Features
+## ✨ Features
 Chart types include:
 
 - Bar Chart
