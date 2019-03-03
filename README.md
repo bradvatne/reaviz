@@ -1,26 +1,26 @@
 <p align="center">
-  📊 R2D3
+  📊 reaviz
   <br />
-  R2D3 is a data visualization library for React based on D3js.
+  reaviz is a data visualization library for React based on D3js.
   <br /><br />
   
-  <a href="https://npm.im/r2d3">
-    <img src="https://img.shields.io/npm/v/r2d3.svg" />
+  <a href="https://npm.im/reaviz">
+    <img src="https://img.shields.io/npm/v/reaviz.svg" />
   </a>
-  <a href="https://github.com/jask-oss/r2d3/blob/master/LICENSE">
+  <a href="https://github.com/jask-oss/reaviz/blob/master/LICENSE">
     <img src="https://badgen.now.sh/badge/license/apache2" />
   </a>
 </p>
 
 ---
 
-R2D3 provides features a module chart component library that leverages
+reaviz provides features a module chart component library that leverages
 React natively for rendering the components while using D3js under the
 hood for calulcations. The library provides a easy way to get started
 creating charts without sacraficing customization ability! 
 
 ## 🚀 Quick Links
-- Checkout the [demo site](https://jask-oss.github.io/r2d3/)
+- Checkout the [demo site](https://jask-oss.github.io/reaviz/)
 - Try it yourself on [Codesandbox](https://codesandbox.io/embed/m7rl2z1989)
 - Learn about updates from the [changelog](CHANGELOG.md)
 
@@ -51,16 +51,16 @@ Additional features:
 
 ## 📦 Install
 
-To use R2D3 in your project, install it via npm/yarn:
+To use reaviz in your project, install it via npm/yarn:
 
 ```
-npm i r2d3 --save
+npm i reaviz --save
 ```
 
 then import a chart type into your JSX element:
 
 ```jsx
-import { BarChart } from 'r2d3';
+import { BarChart } from 'reaviz';
 
 const data = [
   { key: 'IDS', data: 14 },
@@ -78,11 +78,11 @@ const App = () => (
 ```
 
 Checkout this [demo live](https://codesandbox.io/embed/m7rl2z1989) or
-visit the [demos page](https://jask-oss.github.io/r2d3/) to learn more!
+visit the [demos page](https://jask-oss.github.io/reaviz/) to learn more!
 
 ## 🔭 Development
 
-If you want to run R2D3 locally, its super easy!
+If you want to run reaviz locally, its super easy!
 
 - Clone the repo
 - `npm i`
