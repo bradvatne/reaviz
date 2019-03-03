@@ -8,8 +8,8 @@ addParameters({
     theme: {
       ...themes.dark,
       animation: false,
-      brand: 'r2d3',
-      title: 'r2d3',
+      brand: 'reaviz',
+      title: 'reaviz',
       image: '',
       url: ''
     }
