@@ -1,5 +1,5 @@
 {
-  "name": "r2d3",
+  "name": "reaviz",
   "version": "1.0.0",
   "description": "Data Visualization using React and D3.js",
   "scripts": {
@@ -13,23 +13,32 @@
   "typings": "dist/index.d.ts",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jask-oss/r2d3.git"
+    "url": "git+https://github.com/jask-oss/reaviz.git"
   },
   "files": [
     "dist"
   ],
   "keywords": [
     "react",
+    "reactjs",
+    "d3.js",
     "d3",
     "dataviz",
-    "charts"
+    "charts",
+    "bar-chart",
+    "scatter-plot",
+    "area-chart",
+    "line-chart",
+    "pie-chart",
+    "sankey",
+    "hive-plot"
   ],
   "author": "JASK",
   "license": "Apache-2.0",
   "bugs": {
-    "url": "https://github.com/jask-oss/r2d3/issues"
+    "url": "https://github.com/jask-oss/reaviz/issues"
   },
-  "homepage": "https://github.com/jask-oss/r2d3#readme",
+  "homepage": "https://github.com/jask-oss/reaviz#readme",
   "dependencies": {
     "big-integer": "^1.6.42",
     "chroma-js": "^2.0.3",
