@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="docs/assets/logo.png">
+  <img width="650" src="docs/assets/logo.png">
   <br />
   Data visualization library for React based on D3js
   <br /><br />
