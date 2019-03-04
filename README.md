@@ -14,15 +14,17 @@
 
 ---
 
-reaviz provides features a module chart component library that leverages
+REAVIZ provides features a module chart component library that leverages
 React natively for rendering the components while using D3js under the
 hood for calulcations. The library provides a easy way to get started
 creating charts without sacraficing customization ability! 
+
 
 ## 🚀 Quick Links
 - Checkout the [demo site](https://jask-oss.github.io/reaviz/)
 - Try it yourself on [Codesandbox](https://codesandbox.io/embed/m7rl2z1989)
 - Learn about updates from the [changelog](CHANGELOG.md)
+
 
 ## ✨ Features
 Chart types include:
@@ -48,6 +50,7 @@ Additional features:
 - Panning / Zooming
 - Gestures
 - Grid/Mark Lines
+
 
 ## 📦 Install
 
@@ -80,9 +83,10 @@ const App = () => (
 Checkout this [demo live](https://codesandbox.io/embed/m7rl2z1989) or
 visit the [demos page](https://jask-oss.github.io/reaviz/) to learn more!
 
+
 ## 🔭 Development
 
-If you want to run reaviz locally, its super easy!
+If you want to run REAVIZ locally, its super easy!
 
 - Clone the repo
 - `npm i`
