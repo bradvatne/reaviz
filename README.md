@@ -1,7 +1,7 @@
 <p align="center">
-  📊 reaviz
+  <img src="docs/assets/logo.png">
   <br />
-  reaviz is a data visualization library for React based on D3js.
+  Data visualization library for React based on D3js
   <br /><br />
   
   <a href="https://npm.im/reaviz">
