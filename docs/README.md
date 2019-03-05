@@ -1,9 +1,9 @@
 # REAVIZ
 
 - Getting Started
-  - Installing
-  - Developing
-  - CSS Variables
+  - [Installing](getting-started/installing.md)
+  - [Developing](getting-started/developing.md)
+  - [CSS Variables](getting-started/css-vars.md)
 - Chart Types
   - Bar Chart
   - Area Chart
