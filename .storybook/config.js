@@ -5,13 +5,15 @@ import { withInfo } from '@storybook/addon-info';
 
 addParameters({
   options: {
+    showPanel: false,
     theme: {
       ...themes.dark,
       animation: false,
-      brand: 'reaviz',
-      title: 'reaviz',
+      name: 'REAVIZ',
+      brand: 'REAVIZ',
+      title: 'REAVIZ',
       image: '',
-      url: ''
+      url: 'https://jask-oss.github.io/reaviz/'
     }
   },
 });

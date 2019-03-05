@@ -3,7 +3,7 @@ import { storiesOf } from '@storybook/react';
 import { DiscreteLegend } from './DiscreteLegend';
 import { DiscreteLegendEntry } from './DiscreteLegendEntry';
 
-storiesOf('Common/Legend/Discrete', module)
+storiesOf('Charts/Legend/Discrete', module)
   .add('Vertical', () => (
     <DiscreteLegend
       style={{ width: '200px' }}
