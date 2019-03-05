@@ -1,6 +1,7 @@
 # REAVIZ
 
 - Getting Started
+  - [Why](getting-started/why.md)
   - [Installing](getting-started/installing.md)
   - [Developing](getting-started/developing.md)
   - [CSS Variables](getting-started/css-vars.md)
@@ -26,5 +27,5 @@
   - Creating Custom Charts
   - Animations
 - Contributing
-- License
-- Changelog
+- [License](https://github.com/jask-oss/reaviz/blob/master/LICENSE)
+- [Changelog](https://github.com/jask-oss/reaviz/blob/master/CHANGELOG.md)

@@ -51,6 +51,7 @@ Additional features:
 - Panning / Zooming
 - Gestures
 - Grid/Mark Lines
+- BigInt Support
 
 
 ## 📦 Install
