@@ -1,4 +1,4 @@
-# R2D3
+# REAVIZ
 
 - Getting Started
   - Installing
