@@ -24,8 +24,8 @@
   - Tooltips
   - Markline
 - Advanced
-  - Creating Custom Charts
-  - Animations
-- Contributing
+  - [Creating Custom Charts](advanced/custom-charts.md)
+  - [Animations](advanced/animations.md)
+- [Contributing](CONTRIBUTING.md)
 - [License](https://github.com/jask-oss/reaviz/blob/master/LICENSE)
 - [Changelog](https://github.com/jask-oss/reaviz/blob/master/CHANGELOG.md)
