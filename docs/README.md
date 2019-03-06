@@ -23,7 +23,6 @@
 - Utilities
   - Brush
   - Pan Zoom
-  - Gestures
   - Axis
   - Legends
   - Gridlines
