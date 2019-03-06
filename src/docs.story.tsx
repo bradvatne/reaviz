@@ -40,7 +40,7 @@ storiesOf('Documentation/Charts', module)
   .add('Pie Chart', () => <Markdown source={pieChartDoc} />)
   .add('Sparklines', () => <Markdown source={sparklineDoc} />)
   .add('Map', () => <Markdown source={mapDoc} />)
-  .add('Sankey', () => <Markdown source={sankeyDoc} />)
+  .add('Sankey Diagram', () => <Markdown source={sankeyDoc} />)
   .add('Hive Plot', () => <Markdown source={hiveDoc} />);
 
 storiesOf('Documentation/Advanced', module)
