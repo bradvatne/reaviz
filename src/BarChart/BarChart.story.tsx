@@ -216,19 +216,6 @@ storiesOf('Charts/Bar/Gridlines', module)
       data={categoryData}
       gridlines={<GridlineSeries line={<Gridline direction="y" />} />}
     />
-  ))
-  .add('Stripes', () => (
-    <BarChart
-      width={350}
-      height={250}
-      data={multiCategory}
-      gridlines={
-        <GridlineSeries
-          line={<Gridline direction="y" />}
-          stripe={<GridStripe direction="y" />}
-        />
-      }
-    />
   ));
 
 class LiveDataDemo extends React.Component<any, any> {
