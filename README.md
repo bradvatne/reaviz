@@ -4,6 +4,9 @@
   Data visualization library for React based on D3js
   <br /><br />
   
+  <a href="https://circleci.com/gh/jask-oss/reaviz">
+    <img src="https://circleci.com/gh/jask-oss/reaviz.svg?style=svg" />
+  </a>
   <a href="https://npm.im/reaviz">
     <img src="https://img.shields.io/npm/v/reaviz.svg" />
   </a>
