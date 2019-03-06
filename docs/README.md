@@ -6,8 +6,8 @@
   - [Developing](getting-started/developing.md)
   - [CSS Variables](getting-started/css-vars.md)
 - Chart Types
+  - [Area Chart](charts/area-chart.md)
   - Bar Chart
-  - Area Chart
   - Line Chart
   - Map Chart
   - Pie Chart
