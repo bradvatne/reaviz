@@ -12,7 +12,7 @@
 - Chart Types
   - [Area Chart](charts/area-chart.md)
   - [Line Chart](charts/line-chart.md)
-  - Bar Chart
+  - [Bar Chart](charts/bar-chart.md)
   - Map Chart
   - Pie Chart
   - Hive Plot
