@@ -14,6 +14,7 @@ import * as lineChartDoc from '../docs/charts/line-chart.md';
 import * as pieChartDoc from '../docs/charts/pie-chart.md';
 import * as sparklineDoc from '../docs/charts/sparklines.md';
 import * as mapDoc from '../docs/charts/map.md';
+import * as sankeyDoc from '../docs/charts/sankey.md';
 
 import * as customChartsDoc from '../docs/advanced/custom-charts.md';
 import * as animationsDoc from '../docs/advanced/custom-charts.md';
@@ -37,7 +38,8 @@ storiesOf('Documentation/Charts', module)
   .add('Bar Chart', () => <Markdown source={barChartDoc} />)
   .add('Pie Chart', () => <Markdown source={pieChartDoc} />)
   .add('Sparklines', () => <Markdown source={sparklineDoc} />)
-  .add('Map', () => <Markdown source={mapDoc} />);
+  .add('Map', () => <Markdown source={mapDoc} />)
+  .add('Sankey', () => <Markdown source={sankeyDoc} />)
 
 storiesOf('Documentation/Advanced', module)
   .add('Custom Charts', () => <Markdown source={customChartsDoc} />)
