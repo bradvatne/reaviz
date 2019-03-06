@@ -1,4 +1,8 @@
-# REAVIZ
+<p align="center">
+  <img width="650" src="assets/logo.png">
+</p>
+
+---
 
 - Getting Started
   - [Why](getting-started/why.md)
@@ -7,8 +11,8 @@
   - [CSS Variables](getting-started/css-vars.md)
 - Chart Types
   - [Area Chart](charts/area-chart.md)
+  - [Line Chart](charts/line-chart.md)
   - Bar Chart
-  - Line Chart
   - Map Chart
   - Pie Chart
   - Hive Plot
