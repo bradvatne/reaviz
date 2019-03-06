@@ -18,8 +18,8 @@ import { Map } from 'reaviz';
 ```
 
 To add data points to the map, pass an array of `MapMarkers` which
-contain `x` and `y` coordinates for the location. Optionally, pass
-a string to display a tooltip on hover.
+contain longitude and latitude coordinates for the location. Optionally,
+pass a string to display a tooltip on hover.
 
 ```jsx
 import { Map, MapMarker } from 'reaviz';
