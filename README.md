@@ -24,8 +24,7 @@ creating charts without sacraficing customization ability.
 
 
 ## 🚀 Quick Links
-- Checkout the [demos](https://jask-oss.github.io/reaviz/)
-- Learn more in the [docs](docs/README.md)
+- Checkout the [demos and docs](https://jask-oss.github.io/reaviz/)
 - Try it yourself on [Codesandbox](https://codesandbox.io/embed/m7rl2z1989)
 - Learn about updates from the [changelog](CHANGELOG.md)
 
