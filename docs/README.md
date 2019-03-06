@@ -11,10 +11,10 @@
   - [CSS Variables](getting-started/css-vars.md)
 - Chart Types
   - [Area Chart](charts/area-chart.md)
-  - [Line Chart](charts/line-chart.md)
   - [Bar Chart](charts/bar-chart.md)
+  - [Line Chart](charts/line-chart.md)
+  - [Pie Chart](charts/pie-chart.md)
   - Map Chart
-  - Pie Chart
   - Hive Plot
   - Sankey Chart
   - Scatter Plot
