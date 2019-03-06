@@ -65,7 +65,7 @@ can be found in the demos.
 
 ### Multi Series
 
-The multi series area chart will render multiple groupings of bars. The
+The multi series bar chart will render multiple groupings of bars. The
 options are similar to the single series except for the data object is 
 slightly different.
 
