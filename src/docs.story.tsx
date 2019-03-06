@@ -17,7 +17,7 @@ import * as mapDoc from '../docs/charts/map.md';
 import * as sankeyDoc from '../docs/charts/sankey.md';
 
 import * as customChartsDoc from '../docs/advanced/custom-charts.md';
-import * as animationsDoc from '../docs/advanced/custom-charts.md';
+import * as animationsDoc from '../docs/advanced/animations.md';
 
 const Markdown = ({ source }) => (
   <div className="doc-container">
