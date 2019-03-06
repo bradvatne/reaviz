@@ -16,8 +16,8 @@
   - [Map](charts/map.md)
   - [Pie Chart](charts/pie-chart.md)
   - [Sparklines](charts/sparklines.md)
+  - [Sankey Chart](charts/sankey.md)
   - Hive Plot
-  - Sankey Chart
   - Scatter Plot
   - Bubble Chart
 - Utilities
