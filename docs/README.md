@@ -15,9 +15,11 @@
   - [Line Chart](charts/line-chart.md)
   - [Map](charts/map.md)
   - [Pie Chart](charts/pie-chart.md)
+  - [Sparklines](charts/sparklines.md)
   - Hive Plot
   - Sankey Chart
   - Scatter Plot
+  - Bubble Chart
 - Utilities
   - Brush
   - Pan Zoom
