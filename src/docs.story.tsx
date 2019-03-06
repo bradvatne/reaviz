@@ -15,6 +15,7 @@ import * as pieChartDoc from '../docs/charts/pie-chart.md';
 import * as sparklineDoc from '../docs/charts/sparklines.md';
 import * as mapDoc from '../docs/charts/map.md';
 import * as sankeyDoc from '../docs/charts/sankey.md';
+import * as hiveDoc from '../docs/charts/hive-plot.md';
 
 import * as customChartsDoc from '../docs/advanced/custom-charts.md';
 import * as animationsDoc from '../docs/advanced/animations.md';
@@ -40,6 +41,7 @@ storiesOf('Documentation/Charts', module)
   .add('Sparklines', () => <Markdown source={sparklineDoc} />)
   .add('Map', () => <Markdown source={mapDoc} />)
   .add('Sankey', () => <Markdown source={sankeyDoc} />)
+  .add('Hive Plot', () => <Markdown source={hiveDoc} />);
 
 storiesOf('Documentation/Advanced', module)
   .add('Custom Charts', () => <Markdown source={customChartsDoc} />)
