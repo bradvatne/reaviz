@@ -8,6 +8,9 @@ defaults: &defaults
 jobs:
   test:
     <<: *defaults
+    branches:
+      ignore:
+        - gh-pages
     steps:
       - checkout
       - restore_cache:
@@ -43,6 +46,6 @@ jobs:
 
 workflows:
   version: 2
-  test-deploy:
+  build-test:
     jobs:
       - test
