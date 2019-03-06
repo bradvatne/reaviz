@@ -1,12 +1,12 @@
 # How to Contribute
 
-This guide will run through the types of contributions you can make and how to set the Popmotion repository up, ready for local development.
+This guide will run through the types of contributions you can make and how to set the reaviz repository up, ready for local development.
 
-- [Types of Contribution](#types-of-contribution)
-  - [Bugs](#bugs)
-  - [Features](#features)
-- [Development](#development)
-- [Codebase Overview](#codebase-overview)
+  - [Types of Contribution](#types-of-contribution)
+    - [Bugs](#bugs)
+    - [Features](#features)
+  - [Development](#development)
+  - [Codebase Overview](#codebase-overview)
 
 ## Types of Contribution
 
