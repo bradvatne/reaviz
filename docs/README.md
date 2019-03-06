@@ -13,8 +13,8 @@
   - [Area Chart](charts/area-chart.md)
   - [Bar Chart](charts/bar-chart.md)
   - [Line Chart](charts/line-chart.md)
+  - [Map](charts/map.md)
   - [Pie Chart](charts/pie-chart.md)
-  - Map Chart
   - Hive Plot
   - Sankey Chart
   - Scatter Plot
