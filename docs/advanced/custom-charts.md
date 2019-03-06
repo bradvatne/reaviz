@@ -3,7 +3,7 @@
 All of the chart components are exported so its easy to create your own
 charts. Lets say you wanted to create a bar chart with a line chart too.
 
-Below is a psuedo code example of what this might look like:
+Below is a pseudocode example of what this might look like:
 
 ```jsx
 import { AreaSeries, BarSeries } from 'reaviz';

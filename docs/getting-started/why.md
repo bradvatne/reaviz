@@ -17,9 +17,9 @@ in a hodge-podge solution with things working differently.
 And thats how it started... As we built out these components we wanted to keep
 a few basic principles:
 
-- Provide complete customizability
+- Provide complete customization
 - Ensure the integrity of data and interpretation
 - Ability to handle very large numbers and data sets
-- Make sure it is asthetically appealing
+- Make sure it is aesthetically appealing
 
 We hope you enjoy our work!
