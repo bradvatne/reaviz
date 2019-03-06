@@ -36,20 +36,20 @@ const data = [
 To further customize the chart, you can pass a `AreaSeries` to the chart:
 
 ```jsx
-import { AreaChart } from "reaviz";
+import { AreaChart } from 'reaviz';
 
 <AreaChart
   data={[]}
   series={
     <AreaSeries
-      colorScheme={["27efb5", "00bfff"]}
+      colorScheme={['27efb5', '00bfff']}
       line={<Line strokeWidth={3} />}
       area={
         <Area
           pattern={true}
           gradient={[
-            { offset: "10%", stopOpacity: 0 },
-            { offset: "80%", stopOpacity: 1 }
+            { offset: '10%', stopOpacity: 0 },
+            { offset: '80%', stopOpacity: 1 }
           ]}
         />
       }
