@@ -6,17 +6,18 @@ View [Demo Source Code](https://github.com/jask-oss/reaviz/blob/master/src/Sanke
 
 ### Simple Sankey
 
-As default, the Sankey chart shows the link/flow with gradation based on the given colorScheme.
+As default, the Sankey chart shows the link/flow with gradation based on the given colorScheme. You can turn off the gradation by passing `false` to SankeyLink component's `gradient` property (e.g. `gradient={false}`).
 
-You can turn off the gradation by passing `false` to SankeyLink component's `gradient` attribute (e.g. `gradient={false}`).
+To render, the `nodes` and `links` of the Sankey component are required and `colorScheme` is optianal but is recommended to spacify
+to make Sankeys easier to interpret.
+
+For the `nodes`, you can pass the node's name through `title` property of SankeyNode.
+
+For the edges, SankeyLink's `source`, `target`, and `value` properties are all required. For `source` and `target`, you can use
+the index of the nodes' array or the node's `id` if it's assigned.
 
 ```jsx
 import { Sankey, SankeyNode, SankeyLink } from 'reaviz';
-
-const data = [
-  { key: 'Malware', data: 10 },
-  ...more data...
-];
 
 <Sankey
   colorScheme={[
@@ -44,15 +45,10 @@ const data = [
 ### Multilevel Sankeys
 
 The Sankey chart supports multiple levels of links with [alignments](https://github.com/d3/d3-sankey#alignments)
-through `justification` attribute (`'justify' (default) | 'center' | 'left' | 'right'`).
+through `justification` property (`'justify' (default) | 'center' | 'left' | 'right'`).
 
 ```jsx
 import { Sankey, SankeyNode, SankeyLink } from 'reaviz';
-
-const data = [
-  { key: 'Malware', data: 10 },
-  ...more data...
-];
 
 <Sankey
   colorScheme={[
