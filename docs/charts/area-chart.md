@@ -9,14 +9,13 @@ The area chart supports:
 
 View [Demo Source Code](https://github.com/jask-oss/reaviz/blob/master/src/AreaChart/AreaChart.story.tsx)
 
-
 ### Single Series
 
 The single series area chart will render a single arc. The only
-required properties is the `data` object.
+required property is the `data` object.
 
-For the single series chart, you pass an array of objects with
-a `key` and a `data` property. Ideally the `key` property is a 
+For the single series chart, pass an array of objects with
+a `key` and `data` property. Ideally, the `key` property is a
 date or numeric value.
 
 ```jsx
@@ -34,7 +33,7 @@ const data = [
 />
 ```
 
-To customize the chart more, you can pass a `AreaSeries` to the chart:
+To further customize the chart, you can pass a `AreaSeries` to the chart:
 
 ```jsx
 import { AreaChart } from 'reaviz';
@@ -56,7 +55,7 @@ import { AreaChart } from 'reaviz';
       }
     />
   }
-/>
+/>;
 ```
 
 In the above example we are customizing the:
@@ -68,7 +67,6 @@ In the above example we are customizing the:
 
 There are many other properties available to customize, examples
 can be found in the demos.
-
 
 ### Multi Series
 

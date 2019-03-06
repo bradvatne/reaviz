@@ -105,6 +105,7 @@
     "react": "^16.8.4",
     "react-docgen-typescript-loader": "^3.0.1",
     "react-dom": "^16.8.4",
+    "react-markdown": "^4.0.6",
     "react-testing-library": "^6.0.0",
     "rollup": "^1.4.1",
     "rollup-plugin-node-resolve": "^4.0.1",

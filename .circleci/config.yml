@@ -43,6 +43,6 @@ jobs:
 
 workflows:
   version: 2
-  test-deploy:
+  build-test:
     jobs:
       - test
