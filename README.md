@@ -17,10 +17,10 @@
 
 ---
 
-REAVIZ provides features a module chart component library that leverages
+REAVIZ is a modular chart component library that leverages
 React natively for rendering the components while using D3js under the
-hood for calulcations. The library provides a easy way to get started
-creating charts without sacraficing customization ability! 
+hood for calulcations. The library provides an easy way to get started
+creating charts without sacraficing customization ability.
 
 
 ## 🚀 Quick Links
